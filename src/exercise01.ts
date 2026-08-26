@@ -3,5 +3,10 @@ export function formatName(
   lastName: string,
   middleName?: string | null,
 ): string {
-  return '';
+  let ret = lastName + ', ' + firstName;
+  if(middleName){
+    ret += ' ' + middleName[0] + '.';
+  }
+
+  return ret; 
 }

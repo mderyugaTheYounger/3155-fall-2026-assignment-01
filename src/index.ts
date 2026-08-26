@@ -1,3 +1,4 @@
+import { formatName } from '../src/exercise01.js';
 /**
  * Use this file as a scratchpad to manually test your code.
  *
@@ -8,3 +9,5 @@
 // Example:
 // import { formatName } from './exercise01.js';
 // console.log(formatName('John', 'Doe', 'Quincy'));
+
+console.log(formatName('John', 'Doe', 'Quincy'));
