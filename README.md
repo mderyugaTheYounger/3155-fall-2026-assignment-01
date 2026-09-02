@@ -90,7 +90,7 @@ The function accepts a sequence string and returns its RNA complement based on t
 - `T` -> `A`
 - `C` -> `G`
 - `G` -> `C`
-L
+
 If the input string contains any character that is not a valid DNA nucleotide, throw a custom error.
 
 ---
